@@ -19,21 +19,28 @@
 </head>
 
 <body>
-    <div id=wrapper>
-        <div class=header>   
-            <div class=login></div>
-            <div class=serch>这里是头</div>
-            <div class=record></div>
-            <div class=carousel>这是轮播图</div>
+    <div class=container-fluid>
+    <div class=row>
+        <div id=wrapper>
+            <div class=header>   
+                <div class=login></div>
+                <div class=serch>这里是头</div>
+                <div class=record></div>
+                <div class='carousel col-md-12'>这是轮播图</div>
+            </div>
         </div>
+    <div>
     </div>
 
-    <div class=item></div>
-    <div class=sortitem></div>
+    <div class=row>
+            <div class='item col-md-12'></div>
+            <div class='sortitem col-md-12'></div>
+    </div>
 
-    <div class=leftPhoto></div>
-    <div class=rightPhoto></div>
-    
+    <div class=row>
+        <div class='leftPhoto col-md-6'></div>
+        <div class='rightPhoto col-md-6'></div>
+    </div>
     <script src="../lib/jquery/jquery-3.1.1.js"></script>
     <script src="../lib/bootstrap/js/bootstrap.js"></script>
     <script href="../scripts/index.js"></script>
