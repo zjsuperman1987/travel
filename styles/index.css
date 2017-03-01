@@ -1,0 +1,81 @@
+/**
+ * @desc: 首页
+ * @author: zhaojian
+ * @date: 2017/3/1
+ */
+
+ body,div{
+ 	padding:0;
+ 	margin:0;
+ }
+
+#wrapper {
+	width:100%;
+	height:165px;
+	border:1px solid red;
+}
+
+
+
+.header {
+	width:100%;
+	height:35px;
+	border:1px solid gold;
+	position:relative;
+}
+
+.login {
+	width:50px;
+	height:35px;
+	border:1px solid pink;
+	float:left;
+}
+
+.serch {
+	width:1760px;
+	height:35px;
+	border:1px solid pink;
+	position:absolute;	
+	left:50%;
+	margin-left:-880px;
+}
+
+.record {
+	width:50px;
+	height:35px;
+	border:1px solid pink;
+	float:right;
+
+}
+
+.carousel {
+	height:130px;
+	border:1px solid black;
+	clear:both;
+}
+
+.item {
+	height:40px;
+	background:gray;
+}
+
+.sortitem {
+	height:40px;
+	background:pink;
+}
+
+.leftPhoto {
+	width:45%;
+	height:400px;
+	background:black;
+	float:left;
+	margin-left:10px;
+}
+
+.rightPhoto {
+	width:45%;
+	height:400px;
+	background:gold;
+	float:right;
+	margin-right:10px;
+}
